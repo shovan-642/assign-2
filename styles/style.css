@@ -281,6 +281,10 @@ a {
     text-align: center;
     padding: 45px 35px 60px 35px;
 }
+.fact>img:hover{transform: scale(2);
+    transition-duration: 2s;
+}
+
 
 .fact-h2 {
     font-weight: 600;
