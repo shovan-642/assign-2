@@ -1,0 +1,118 @@
+ /* for large device  */
+ @media only screen and (min-width: 1200px) {
+     .container {
+         width: 1200px;
+         margin: auto;
+     }
+
+     .banner img {
+         width: 1200px;
+     }
+
+     .feature-img-btn img {
+         width: 500px;
+     }
+
+     .team-section,
+     .footer-section,
+     .feature-section {
+         margin-top: 130px;
+     }
+
+     .experience-button {
+         padding: 20px;
+     }
+ }
+
+
+ /* for mobile device */
+ @media only screen and (max-width: 600px) {
+
+     header,
+     section {
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+
+     .container {
+         width: 100%;
+         margin: auto;
+     }
+
+     .nav-section {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+
+     #nav-menu>ul {
+         flex-direction: column;
+         justify-content: flex-start;
+         padding-left: 0px;
+     }
+
+     .hmobo {
+         font-size: 40px;
+     }
+
+     .header-description {
+         text-align: left;
+     }
+
+     .banner img {
+         width: 100%;
+         text-align: center;
+     }
+
+     .team-section {
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+     }
+
+     .team-images {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .feature-section {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .feature-img-btn {
+         display: none;
+     }
+
+     .single-feature {
+         width: 100%;
+     }
+
+     .single-fact {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .fact {
+         margin-bottom: 20px;
+         padding: 10px;
+     }
+
+     .sponspor-list {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .sponspor-single {
+         margin-bottom: 20px;
+     }
+     .contact-form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+     }
+     #message, #email {
+        margin-bottom: 20px;
+     }
+ }
